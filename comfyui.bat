@@ -9,7 +9,6 @@ set "COMMANDLINE_ARGS=--auto-launch --use-quad-cross-attention --reserve-vram 0.
 set "ZLUDA_COMGR_LOG_LEVEL=1"
 
 :: Check Git version and installed commit hash
-echo.
 where git >NUL 2>&1
 if errorlevel 1 (
     echo [FAIL] Git is not installed or not found in the system PATH.
